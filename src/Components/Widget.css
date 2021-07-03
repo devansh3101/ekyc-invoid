@@ -1,0 +1,228 @@
+.widget-container-hidden{
+    display: none;
+}
+
+.widget-container{
+    background: linear-gradient(to right top, rgba(187, 189, 255, 0.692), white);
+    position: absolute;
+    height: 500px;
+    width: 750px;
+    border-radius: 3rem;
+    border: 1px solid rgba(255, 255, 255, 0.425);
+    backdrop-filter: blur(1rem);
+    box-shadow: -3px 3px 20px 10px rgba(146, 146, 146, 0.075);
+    animation: 0.4s fadeIn;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.illustration-input{
+    height: 200px;
+}
+
+.instructions-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right{
+    margin-top: -10px;
+}
+
+.instructions{
+    margin-left: 20px;
+    max-width: 250px;
+    font-size: 15px;
+}
+
+.upload-div{
+    margin-top: 30px;
+    margin-right: 10px;
+    transition: 0.2s;
+}
+
+.upload-div:hover{
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+.label-visible{
+    background-color: #434b8b;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 2rem;
+}
+
+.label-visible:hover{
+    background: darkblue;
+    transition: 0.2s;
+}
+
+.delete-div{
+    margin-top: 10px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    margin-left: 10px;
+    transition: 0.2s;
+}
+
+.inputString{
+    width: 170px;
+    background: rgba(182, 182, 182, 0.247);
+    padding: 10px 20px;
+    padding-bottom: 17px;
+    border-radius: 20px;
+}
+
+.delete-div i:hover{
+    color: rgb(182, 0, 0);
+}
+
+.controls{
+    margin-top: 35px;
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+#cancel-button{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    background: rgb(255, 152, 173);
+    cursor: pointer;
+}
+
+#cancel-button:hover{
+    color: white;
+    background: rgb(255, 62, 100);
+    transition: 0.2s;
+}
+
+#submit-button{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    background: rgb(207, 255, 179);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+
+#submit-button:hover{
+    color: white;
+    background: rgb(53, 190, 87);
+    transition: 0.2s;
+}
+
+#submit-button-disabled{
+    padding: 10px 30px;
+    border-radius: 2rem;
+    background: rgb(196, 196, 196);
+    color:rgba(255, 255, 255, 0.425);
+    border: none;
+    transition: 0.2s;
+}
+
+
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.exit-slide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.exit-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.exit-illustration{
+    transition: 0.2s;
+}
+
+.exit-tagline{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#continue-button{
+    margin-top: 30px;
+    cursor: pointer;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background: rgb(0, 165, 124);
+}
+
+#continue-button:hover{
+    color: white;
+    background: rgb(0, 116, 87);
+    transition: 0.2s;
+}
+
+@media screen and (max-width: 1000px) {
+    .widget-container{
+        min-height: 85vh;
+        width: 90vw;
+    }
+    .illustration-input{
+        height: 150px;
+        margin-bottom: 20px;
+    }
+    .input-title{
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    .controls{
+        column-gap: 30px;
+    }
+    .instructions-div{
+        flex-direction: column;
+    }
+    .exit-title{
+        font-size: 25px;
+    }
+    .exit-tagline{
+        margin-top: 15px;
+        width: 300px;
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .upload-div{
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+}
+

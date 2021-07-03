@@ -1,0 +1,72 @@
+.LandingPage-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.demo-illustration{
+    margin-left: -20px;
+    height: 480px;
+}
+
+.written-content{
+    margin-left: 40px;
+}
+
+.title{
+    font-size: 80px;
+    line-height: 80px;
+    font-weight: 600;
+}
+
+.tagline{
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.button{
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border-radius: 30px;
+    width: 150px;
+    background: #434b8b;
+    font-weight: 600;
+    margin-top: 70px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background: #262a4e;
+    transition: 0.2s;
+}
+
+@media screen and (max-width: 1000px) {
+    .LandingPage-container{
+        flex-direction: column;
+        width: 100%;
+    }
+    .demo-illustration{
+        margin: 0px;
+        height: 250px;
+        margin-left: -10px;
+        overflow: hidden;
+    }
+    .written-content{
+        margin: 0px;
+        margin-top: 20px;
+    }
+    .title{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .tagline{
+        font-size:small;
+        margin-top: 20px;
+    }
+    .button{
+        margin-top: 30px;
+        padding: 10px;
+    }
+}
