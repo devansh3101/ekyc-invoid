@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ekyc-invoid/static/css/main.9513b45b.chunk.css",
+    "main.css": "/ekyc-invoid/static/css/main.896a2290.chunk.css",
     "main.js": "/ekyc-invoid/static/js/main.b80bcb29.chunk.js",
     "main.js.map": "/ekyc-invoid/static/js/main.b80bcb29.chunk.js.map",
     "runtime-main.js": "/ekyc-invoid/static/js/runtime-main.bc54a252.js",
@@ -10,7 +10,7 @@
     "static/js/3.9794b9f3.chunk.js": "/ekyc-invoid/static/js/3.9794b9f3.chunk.js",
     "static/js/3.9794b9f3.chunk.js.map": "/ekyc-invoid/static/js/3.9794b9f3.chunk.js.map",
     "index.html": "/ekyc-invoid/index.html",
-    "static/css/main.9513b45b.chunk.css.map": "/ekyc-invoid/static/css/main.9513b45b.chunk.css.map",
+    "static/css/main.896a2290.chunk.css.map": "/ekyc-invoid/static/css/main.896a2290.chunk.css.map",
     "static/js/2.a9bf612f.chunk.js.LICENSE.txt": "/ekyc-invoid/static/js/2.a9bf612f.chunk.js.LICENSE.txt",
     "static/media/Logo.49e30c6e.png": "/ekyc-invoid/static/media/Logo.49e30c6e.png",
     "static/media/blogging.7f28bb97.svg": "/ekyc-invoid/static/media/blogging.7f28bb97.svg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.bc54a252.js",
     "static/js/2.a9bf612f.chunk.js",
-    "static/css/main.9513b45b.chunk.css",
+    "static/css/main.896a2290.chunk.css",
     "static/js/main.b80bcb29.chunk.js"
   ]
 }
